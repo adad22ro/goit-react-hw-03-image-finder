@@ -1,0 +1,10 @@
+.LoaderContainer {
+    position: fixed;
+    /* Fixez poziția loader-ului relativă la viewport */
+    top: 50%;
+    /* Centrez pe axa verticală */
+    left: 50%;
+    /* Centrez pe axa orizontală */
+    transform: translate(-50%, -50%);
+    /* Compensez pentru dimensiunea proprie a loader-ului */
+}
